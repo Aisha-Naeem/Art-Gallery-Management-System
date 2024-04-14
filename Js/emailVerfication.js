@@ -71,3 +71,10 @@ function clearOTPs()
     });
       
 }
+
+const nextButton = document.getElementsByTagName("button");
+// Add a click event listener to the button
+nextButton.addEventListener("click", function() {
+    // Navigate to the next page by setting the new URL
+    window.location.href = "PasswordPage.html"; // Change "next_page.html" to the URL of your next page
+});
